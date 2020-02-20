@@ -3,26 +3,20 @@ def menu():
     option = 'J'
     print('Hello to the complete calculator')
     while option != 'Y' and option != 'N':
-        print('Insert Y if you want execute the calculator or N if you want leave')
-        option = input().upper()
+        option = input('Insert Y if you want execute the calculator or N if you want leave: ').upper()
     return option[0]
 
 
 def readNumber():
-    print('Insert the number')
-    number = int(input())
+    number = int(input('Insert the number: '))
     return number
 
 
 def readOption():
     option = 8
     while option < 0 or option > 3:
-        print('Insert the number of the option do you want execute\n'
-              '0.- Addition\n'
-              '1.- Subtract\n'
-              '2.- Divide\n'
-              '3.- Multiply')
-        option = int(input())
+        print('Options:\n0.- Addition\n 1.- Subtract\n 2.- Divide\n 3.- Multiply')
+        option = int(input('Insert the number of the option do you want execute: '))
     return option
 
 
