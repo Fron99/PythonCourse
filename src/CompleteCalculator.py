@@ -51,3 +51,6 @@ while option == 'Y':
     result = switch_optionCalculate(optionCalculate,number1,number2)
     print('The result of the calculation is', result)
     option = menu()
+
+print('Thank for execute my calculate')
+print('GoodBye!!!')
