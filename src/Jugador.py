@@ -7,5 +7,3 @@ class Jugador:
         name = 'Default'
         nick = 'Default'
         money = 100
-
-
